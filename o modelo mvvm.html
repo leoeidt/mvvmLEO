@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+ <head></head>
+ <body>
+ 	<p>Definicao Basica MVVM</p>
+    <p>
+
+O MVVM e um pattern, os patterns podem ser traduzidos como padroes, ou seja, ser um pattern e ser uma tipo de configuracao ou arquitetura. Ele foi criado em 2005, por John Gossman, um dos arquitetos do WPF e Silverlight na Microsoft. 
+	<p>View: A responsabilidade da View e definir a aparencia ou estrutura que o usuario ve na tela. O ideal e que o codebehind da view, contenha apenas a chamada ao metodo InitializeComponent dentro do construtor, ou em alguns casos, codigo que manipule os controles visuais, ou crie animacoes.
+	ViewModel: A responsabilidade da ViewModel no contexto do MVVM, e disponibilizar para a View uma logica de apresentacao.</p>
+	<p>A View Model nao tem nenhum conhecimento especifico sobre a view, ou como ela implementada, nem o seu tipo. A ViewModel implementa propriedades e comandos, para que a View possa preencher seus controles e notifica a mesma, caso haja alteracao de estado; seja atraves de eventos ou notificacao de alteracao. A ViewModel e peca fundamental no MVVM, por que e ela quem vai coordenar as iteracoes da View com o Model, haja vista, ambos nao terem conhecimento um do outro.</p>
+
+ </body>
+</html>
